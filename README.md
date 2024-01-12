@@ -5,3 +5,12 @@ In this paper, we propose a **Two-stage Residual-based Motion Deblurring (TRMD)*
 
 ## Method overview
 ![img](https://github.com/chenkang455/Motion-Deblur-by-Learning-Residual-from-Events/assets/72788314/5feb49ae-f32d-4710-a249-e2b60c7ae842)
+
+## Quickstart
+### 1. Setup environment
+
+```
+git clone https://github.com/chenkang455/Motion-Deblur-by-Learning-Residual-from-Events
+cd Motion-Deblur-by-Learning-Residual-from-Events
+pip install -r requirements.txt
+```
