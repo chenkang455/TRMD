@@ -15,7 +15,7 @@ cd TRMD
 pip install -r requirements.txt
 ```
 ### 2. Download datasets
-You can download the Event-Version GOPRO Dataset and Real World Blur (REBlur) Dataset from [here].
+You can download the Event-Version GOPRO Dataset and Real Event Blur (REBlur) Dataset from [here].
 
 ### 3. Configs
 
@@ -26,4 +26,4 @@ You can download the Event-Version GOPRO Dataset and Real World Blur (REBlur) Da
 
 ## Acknowledgment
 
-Our event representation (SCER) code is derived from [EFNet](https://github.com/AHupuJR/EFNet). We appreciate the effort of the contributors to these repositories.
+Our event representation (SCER) code and REBlur dataset is derived from [EFNet](https://github.com/AHupuJR/EFNet). We appreciate the effort of the contributors to these repositories.
