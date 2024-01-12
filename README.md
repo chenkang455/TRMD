@@ -10,7 +10,20 @@ In this paper, we propose a **Two-stage Residual-based Motion Deblurring (TRMD)*
 ### 1. Setup environment
 
 ```
-git clone https://github.com/chenkang455/Motion-Deblur-by-Learning-Residual-from-Events
-cd Motion-Deblur-by-Learning-Residual-from-Events
+git clone https://github.com/chenkang455/TRMD
+cd TRMD
 pip install -r requirements.txt
 ```
+### 2. Download datasets
+You can download the Event-Version GOPRO Dataset and Real World Blur (REBlur) Dataset from [here].
+
+### 3. Configs
+
+### 4. Test the metric/Visualize the deblurred image with our pre-trained model
+
+### 5. Training
+
+
+## Acknowledgment
+
+Our event representation (SCER) code is derived from [EFNet](https://github.com/AHupuJR/EFNet). We appreciate the effort of the contributors to these repositories.
