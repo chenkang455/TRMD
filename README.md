@@ -1,5 +1,5 @@
 # Motion-Deblur-by-Learning-Residual-from-Events
-This is an official PyTorch implementation of [Motion Deblur by Learning Residual from Events]() to be published in **(TMM 2024)**.
+This is an official PyTorch implementation of [Motion Deblur by Learning Residual from Events]() to be published in **TMM 2024**.
 
 **Authors:** Kang Chen and [Lei Yu](http://eis.whu.edu.cn/index/szdwDetail?rsh=00030713&newskind_id=20160320222026165YIdDsQIbgNtoE) from Wuhan university, Wuhan, China.
 ## Method overview
