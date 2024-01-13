@@ -1,5 +1,5 @@
 # Motion-Deblur-by-Learning-Residual-from-Events
-This is an official PyTorch implementation of "Motion Deblur by Learning Residual from Events"  (TMM 2024).
+This is an official PyTorch implementation of "Motion Deblur by Learning Residual from Events"  **(TMM 2024)**.
 
 In this paper, we propose a **Two-stage Residual-based Motion Deblurring (TRMD)** framework for an event camera, which converts a blurry image into a sequence of sharp images, leveraging the abundant motion features encoded in events.
 
@@ -66,6 +66,11 @@ To train our model from scratch on **RGB-GOPRO**:
 ```
 python train_GoPro.py --rgb True --save_unet_path Model/RE_Net_RGB.pth
 ```
+
+### 6. Training
+
+## Contact
+Should you have any questions, please feel free to contact [mrchenkang@whu.edu.cn](mailto:mrchenkang@whu.edu.cn) or [ly.wd@whu.edu.cn](mailto:ly.wd@whu.edu.cn).
 
 ## Acknowledgment
 
