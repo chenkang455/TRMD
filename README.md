@@ -15,9 +15,9 @@ cd TRMD
 pip install -r requirements.txt
 ```
 ### 2. Download datasets
-You can download our trained models, synthesized dataset GOPRO and real event dataset REBlur from [Google Drive](). 
+You can download our trained models, synthesized dataset GOPRO and real event dataset REBlur (from [EFNet](https://github.com/AHupuJR/EFNet)) from [Google Drive](). 
 
-Place the downloaded models and datasets according to the following directory structure:
+Place the downloaded models and datasets (path defined in config.yaml) according to the following directory structure:
 ```                                                                                            
 ├── Data                                                                                                                                                            
 │   ├── GOPRO                                                                                              
@@ -39,21 +39,19 @@ Place the downloaded models and datasets according to the following directory st
 Change the data path and other parameters (if needed) in ```config.yaml```. 
 
 ### 4. Test the metric/Visualize the deblurred image with our pre-trained model
-To test TRMD on gray-GOPRO:
+Test the performance metric and visualize the deblurred result on **GRAY-GOPRO**:
 ```
 python test_GoPro.py --rgb False
 ```
-To test TRMD on rgb-GOPRO:
+Test the performance metric and visualize the deblurred result on **RGB-GOPRO**:
 ```
 python test_GoPro.py --rgb True
 ```
-```
-python test_GoPro.py --rgb False
-```
-To test TRMD on REBlur:
+Visualize the deblurred result on **REBlur**:
 ```
 python test_REBlur.py 
 ```
+
 
 
 ### 5. Training
