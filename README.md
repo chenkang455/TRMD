@@ -15,7 +15,7 @@ cd TRMD
 pip install -r requirements.txt
 ```
 ### 2. Download datasets
-You can download our trained models, synthesized dataset GOPRO and real event dataset REBlur (from [EFNet](https://github.com/AHupuJR/EFNet)) from [Google Drive](). 
+You can download our trained models, synthesized dataset GOPRO and real event dataset REBlur (from [EFNet](https://github.com/AHupuJR/EFNet)) from [Baidu Netdisk](). 
 
 Place the downloaded models and datasets (path defined in config.yaml) according to the following directory structure:
 ```                                                                                            
