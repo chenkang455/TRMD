@@ -1,14 +1,14 @@
 # Motion-Deblur-by-Learning-Residual-from-Events
 This is an official PyTorch implementation of "Motion Deblur by Learning Residual from Events"  **(TMM 2024)**.
 
+**Authors:** Kang Chen and [Lei Yu](http://eis.whu.edu.cn/index/szdwDetail?rsh=00030713&newskind_id=20160320222026165YIdDsQIbgNtoE) from Wuhan university, Wuhan, China.
+## Method overview
 In this paper, we propose a **Two-stage Residual-based Motion Deblurring (TRMD)** framework for an event camera, which converts a blurry image into a sequence of sharp images, leveraging the abundant motion features encoded in events.
 
-## Method overview
 ![img](Img/framework.png)
 
 ## Quickstart
 ### 1. Setup environment
-
 ```
 git clone https://github.com/chenkang455/TRMD
 cd TRMD
