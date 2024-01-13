@@ -36,7 +36,7 @@ Place the downloaded models and datasets (path defined in config.yaml) according
 ```
 
 ### 3. Configs
-Change the data path and other parameters (if needed) in (config.yaml)[https://github.com/chenkang455/TRMD/blob/main/config.yaml]. 
+Change the data path and other parameters (if needed) in [config.yaml](https://github.com/chenkang455/TRMD/blob/main/config.yaml). 
 
 ### 4. Test with our pre-trained models
 * To test the metric and visualize the deblurred result on **GRAY-GOPRO**:
