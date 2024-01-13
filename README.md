@@ -15,9 +15,9 @@ cd TRMD
 pip install -r requirements.txt
 ```
 ### 2. Download datasets
-You can download our trained models, synthesized dataset GOPRO and real event dataset REBlur (from [EFNet](https://github.com/AHupuJR/EFNet)) from [Baidu Netdisk]() [to be uploaded]. 
+You can download our trained models, synthesized dataset GOPRO and real event dataset REBlur (from [EFNet](https://github.com/AHupuJR/EFNet)) from [Baidu Netdisk](https://pan.baidu.com/s/1advngktF3hiHzLO_fs6E0w?pwd=e1uc) with the password ```eluc```. 
 
-Place the downloaded models and datasets (path defined in config.yaml) according to the following directory structure:
+Unzip the ```GOPRO.zip``` file before placing the downloaded models and datasets (path defined in [config.yaml](https://github.com/chenkang455/TRMD/blob/main/config.yaml)) according to the following directory structure:
 ```                                                                                            
 ├── Data                                                                                                                                                            
 │   ├── GOPRO                                                                                              
@@ -34,6 +34,7 @@ Place the downloaded models and datasets (path defined in config.yaml) according
 ├── config.yaml
 ├── ...
 ```
+
 
 ### 3. Configs
 Change the data path and other parameters (if needed) in [config.yaml](https://github.com/chenkang455/TRMD/blob/main/config.yaml). 
