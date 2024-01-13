@@ -1,0 +1,27 @@
+name: unet
+seed: 3407
+rgb: False
+
+GOPRO:
+  train: "/home/chenkang/GOPRO/train"
+  test: "/home/chenkang/GOPRO/test"
+
+REBlur:
+  train: "/home/chenkang/REBlur_rawevents/train"
+  test: "/home/chenkang/REBlur_rawevents/test"
+  
+train_setting:
+  batch_size: 8
+  num_workers: 0
+  num_epoch: 101
+  lr: 0.001
+
+test_setting:
+  batch_size: 1
+  
+num_bin: 7
+
+unet:
+  load_path: "Pretrained_Model/Test.pth"
+  save_path: "Pretrained_Model/Test.pth"
+  load: False
