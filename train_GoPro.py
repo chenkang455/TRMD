@@ -121,7 +121,7 @@ def train(opt):
             test_loss_plot.append(metrics['MSE'].avg)
             # save the last checkpoint
             checkpoint_unet = {'state_dict': unet.state_dict(), 'optimizer': optimizer.state_dict() , 'scheduler': scheduler.state_dict()}
-            torch.save(checkpoint_unet, opt.save_unet_path)
+            torch.save(checkpoint_unet, opt.save_path)
         pbar.close()
     # plot and save result
     save_plot('train_loss',range(len(train_loss_plot)),train_loss_plot)
@@ -212,7 +212,7 @@ def get_parser():
     # model loading path
     parser.add_argument("--load_path",default=dic['unet']['load_path'])
     # model saving path --last
-    parser.add_argument("--save_unet_path",default=dic['unet']['save_path'])
+    parser.add_argument("--save_path",default=dic['unet']['save_path'])
     # lr
     parser.add_argument("--lr",  default= dic['train_setting']['lr'])
     parser.add_argument("--seed",  default= dic['seed'])

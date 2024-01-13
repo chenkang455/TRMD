@@ -60,14 +60,21 @@ python network.py
 ### 5. Training
 To train our model from scratch on **GRAY-GOPRO**:
 ```
-python train_GoPro.py --rgb False --save_unet_path Model/RE_Net_GRAY.pth
+python train_GoPro.py --rgb False --save_path Model/RE_Net_GRAY.pth
 ```
 To train our model from scratch on **RGB-GOPRO**:
 ```
-python train_GoPro.py --rgb True --save_unet_path Model/RE_Net_RGB.pth
+python train_GoPro.py --rgb True --save_path Model/RE_Net_RGB.pth
 ```
 
-### 6. Training
+### 6. Results
+<details><summary>GoPro dataset (Click to expand) </summary>
+<img src="Img/gopro.png" alt="gopro_table" style="zoom:100%;" />
+</details>
+
+<details><summary>REBlur dataset (Click to expand) </summary>
+<img src="Img/reblur.png" alt="reblur_table" style="zoom:100%;" />
+</details>
 
 ## Contact
 Should you have any questions, please feel free to contact [mrchenkang@whu.edu.cn](mailto:mrchenkang@whu.edu.cn) or [ly.wd@whu.edu.cn](mailto:ly.wd@whu.edu.cn).

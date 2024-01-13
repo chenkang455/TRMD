@@ -3,12 +3,12 @@ seed: 3407
 rgb: False
 
 GOPRO:
-  train: "/home/chenkang/GOPRO/train"
-  test: "/home/chenkang/GOPRO/test"
+  train: "Data/GOPRO/train"
+  test: "Data/GOPRO/test"
 
 REBlur:
-  train: "/home/chenkang/REBlur_rawevents/train"
-  test: "/home/chenkang/REBlur_rawevents/test"
+  train: "Data/REBlur_rawevents/train"
+  test: "Data/REBlur_rawevents/test"
   
 train_setting:
   batch_size: 8
@@ -22,6 +22,8 @@ test_setting:
 num_bin: 7
 
 unet:
-  load_path: "Pretrained_Model/Test.pth"
-  save_path: "Pretrained_Model/Test.pth"
+  load_path: "Pretrained_Model/RE_Net_GRAY.pth" # GRAY
+  # load_path: "Pretrained_Model/RE_Net_RGB.pth" # GRAY
+  save_path: "Model/RE_Net_GRAY.pth" # GRAY
+  # save_path: "Model/RE_Net_RGB.pth" # RGB
   load: False
