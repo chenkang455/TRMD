@@ -23,7 +23,7 @@ num_bin: 7
 
 unet:
   load_path: "Pretrained_Model/RE_Net_GRAY.pth" # GRAY
-  # load_path: "Pretrained_Model/RE_Net_RGB.pth" # GRAY
+  # load_path: "Pretrained_Model/RE_Net_RGB.pth" # RGB
   save_path: "Model/RE_Net_GRAY.pth" # GRAY
   # save_path: "Model/RE_Net_RGB.pth" # RGB
   load: False
