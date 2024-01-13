@@ -38,24 +38,34 @@ Place the downloaded models and datasets (path defined in config.yaml) according
 ### 3. Configs
 Change the data path and other parameters (if needed) in ```config.yaml```. 
 
-### 4. Test the metric/Visualize the deblurred image with our pre-trained model
-Test the performance metric and visualize the deblurred result on **GRAY-GOPRO**:
+### 4. Test with our pre-trained models
+* To test the metric and visualize the deblurred result on **GRAY-GOPRO**:
 ```
-python test_GoPro.py --rgb False
+python test_GoPro.py --rgb False --load_path Pretrained_Model/RE_Net_GRAY.pth
 ```
-Test the performance metric and visualize the deblurred result on **RGB-GOPRO**:
+* To test the metric and visualize the deblurred result on **RGB-GOPRO**:
 ```
-python test_GoPro.py --rgb True
+python test_GoPro.py --rgb True --load_path Pretrained_Model/RE_Net_RGB.pth
 ```
-Visualize the deblurred result on **REBlur**:
+* To visualize the deblurred result on **REBlur**:
 ```
-python test_REBlur.py 
+python test_REBlur.py --load_path Pretrained_Model/RE_Net_GRAY.pth
 ```
-
+* To test our model size and FLOPs:
+```
+python network.py 
+```
 
 
 ### 5. Training
-
+To train our model from scratch on **GRAY-GOPRO**:
+```
+python train_GoPro.py --rgb False --save_unet_path Model/RE_Net_GRAY.pth
+```
+To train our model from scratch on **RGB-GOPRO**:
+```
+python train_GoPro.py --rgb True --save_unet_path Model/RE_Net_RGB.pth
+```
 
 ## Acknowledgment
 
