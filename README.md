@@ -82,4 +82,4 @@ Should you have any questions, please feel free to contact [mrchenkang@whu.edu.c
 
 ## Acknowledgment
 
-Our event representation (SCER) code and REBlur dataset is derived from [EFNet](https://github.com/AHupuJR/EFNet). Some of the code for metric testing and module construction is from [E-CIR](https://github.com/chensong1995/E-CIR). We appreciate the effort of the contributors to these repositories.
+Our event representation (SCER) code and REBlur dataset are derived from [EFNet](https://github.com/AHupuJR/EFNet). Some of the code for metric testing and module construction is from [E-CIR](https://github.com/chensong1995/E-CIR). We appreciate the effort of the contributors to these repositories.
