@@ -87,7 +87,7 @@ If you find our work useful in your research, please cite:
 @article{chen2024motion,
   title={Motion Deblur by Learning Residual from Events},
   author={Chen, Kang and Yu, Lei},
-  journal={IEEE Transactions on Multimedia}
+  journal={IEEE Transactions on Multimedia},
   year={2024},
   publisher={IEEE} 
 }
