@@ -24,7 +24,7 @@ Unzip the ```GOPRO.zip``` file before placing the downloaded models and datasets
 │   │   └── train                                                                                                                             
 │   │   └── test                                                                                    
 |   ├── REBlur
-|   |   └── trian
+|   |   └── train
 |   |   └── test   
 |   |   └── addition
 |   |   └── README.md 
