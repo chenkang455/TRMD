@@ -58,7 +58,7 @@ python network.py
 ```
 
 
-<!-- ### 5. Training
+### 5. Training
 To train our model from scratch on **GRAY-GOPRO**:
 ```
 python train_GoPro.py --rgb False --save_path Model/RE_Net_GRAY.pth
@@ -66,7 +66,7 @@ python train_GoPro.py --rgb False --save_path Model/RE_Net_GRAY.pth
 To train our model from scratch on **RGB-GOPRO**:
 ```
 python train_GoPro.py --rgb True --save_path Model/RE_Net_RGB.pth
-``` -->
+```
 
 ### 5. Results
 <details><summary>GoPro dataset (Click to expand) </summary>
