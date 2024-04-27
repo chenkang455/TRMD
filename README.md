@@ -68,7 +68,7 @@ To train our model from scratch on **RGB-GOPRO**:
 python train_GoPro.py --rgb True --save_path Model/RE_Net_RGB.pth
 ```
 
-### 5. Results
+### 6. Results
 <details><summary>GoPro dataset (Click to expand) </summary>
 <img src="Img/gopro.png" alt="gopro_table" style="zoom:100%;" />
 </details>
