@@ -9,7 +9,7 @@ If you like our project, please give us a star ⭐ on GitHub.  </h5>
 
 [![IEEE](https://img.shields.io/badge/IEEE-Xplore-blue.svg?logo=IEEE)](https://doi.org/10.1109/TMM.2024.3355630)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/chenkang455/TRMD)
-[![GitHub repo stars](https://img.shields.io/github/stars/chenkang455/S-SDM?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/chenkang455/S-SDM/stargazers)&#160;
+[![GitHub repo stars](https://img.shields.io/github/stars/chenkang455/TRMD?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/chenkang455/TRMD/stargazers)&#160;
 
 
 </h5>
