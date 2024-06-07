@@ -15,11 +15,12 @@ If you like our project, please give us a star ⭐ on GitHub.  </h5>
 </h5>
 
 <p align="center">
-  Implemetation of "Motion Deblur by Learning Residual from Events".
+  Implementation of "Motion Deblur by Learning Residual from Events".
+  
   <img src="Img/framework.png"/>
 </p>
 
-## 📕 Abstarct
+## 📕 Abstract
 >  We propose a Two-stage Residual-based Motion Deblurring (TRMD) framework for an event camera, which converts a blurry image into a sequence of sharp images, leveraging the abundant motion features encoded in events.
 In the first stage, a residual estimation network is trained to estimate the residual sequence, which measures the intensity difference between the intermediate frame and other frames sampled during the exposure. 
 In the subsequent stage, the previously estimated residuals are combined with the blurry image to reconstruct the deblurred sequence based on the physical model of motion blur.
