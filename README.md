@@ -14,9 +14,7 @@ If you like our project, please give us a star ⭐ on GitHub.  </h5>
 
 </h5>
 
-<p align="center">
-  Implementation of "Motion Deblur by Learning Residual from Events".
-  
+<p align="center">  
   <img src="Img/framework.png"/>
 </p>
 
