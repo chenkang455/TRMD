@@ -72,15 +72,15 @@ Change the data path and other parameters (if needed) in [config.yaml](https://g
 ### 🌅 Test with our pre-trained models
 * To test the metric and visualize the deblurred result on **GRAY-GOPRO**:
 ```
-python test_GoPro.py --rgb False --load_unet --load_path Pretrained_Model/RE_Net_GRAY.pth
+python test_GoPro.py --rgb False --load_unet True --load_path Pretrained_Model/RE_Net_GRAY.pth
 ```
 * To test the metric and visualize the deblurred result on **RGB-GOPRO**:
 ```
-python test_GoPro.py --rgb True --load_unet --load_path Pretrained_Model/RE_Net_RGB.pth
+python test_GoPro.py --rgb True --load_unet True --load_path Pretrained_Model/RE_Net_RGB.pth
 ```
 * To visualize the deblurred result on **REBlur**:
 ```
-python test_REBlur.py --load_unet --load_path Pretrained_Model/RE_Net_GRAY.pth
+python test_REBlur.py --load_unet True --load_path Pretrained_Model/RE_Net_GRAY.pth
 ```
 * To test our model size and FLOPs:
 ```
