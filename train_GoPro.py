@@ -59,9 +59,9 @@ def prepare(opt):
     set_random_seed(opt.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # dataset
-    # train_dataset, test_dataset = create_dataset(opt)
+    train_dataset, test_dataset = create_dataset(opt)
     # dataloader
-    # train_loader, test_loader = create_dataloader(train_dataset, test_dataset, opt)
+    train_loader, test_loader = create_dataloader(train_dataset, test_dataset, opt)
     # model setting
     unet = nn.DataParallel(RE_Net(rgb = opt.rgb,out_channels=opt.num_bin - 1, event_channels=opt.num_bin - 1)).to(device)
     # train setting
