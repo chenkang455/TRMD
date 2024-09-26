@@ -18,6 +18,7 @@ If you like our project, please give us a star ⭐ on GitHub.  </h5>
   <img src="Img/framework.png"/>
 </p>
 
+* Our new word S-SDM designed for the spike-based motion deblurring task is accepted by the NeurIPS 2024 (Spotlight)🎉🎉🎉. Welcome check it by https://github.com/chenkang455/S-SDM. 😊😊😊
 ## 📕 Abstract
 >  We propose a Two-stage Residual-based Motion Deblurring (TRMD) framework for an event camera, which converts a blurry image into a sequence of sharp images, leveraging the abundant motion features encoded in events.
 In the first stage, a residual estimation network is trained to estimate the residual sequence, which measures the intensity difference between the intermediate frame and other frames sampled during the exposure. 
