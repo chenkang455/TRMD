@@ -101,6 +101,16 @@ def get_parser():
     parser.add_argument("--load_unet", default= dic['unet']['load'])
     parser.add_argument("--seed",  default= dic['seed'])
     opt = parser.parse_args()
+    # fix bug
+    if opt.rgb == 'True':
+        opt.rgb = True
+    elif opt.rgb == 'False':
+        opt.rgb = False
+        
+    if opt.load_unet == 'True':
+        opt.load_unet = True
+    elif opt.load_unet == 'False':
+        opt.load_unet = False
     return opt
 
 if __name__ == "__main__":

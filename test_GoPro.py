@@ -155,6 +155,16 @@ def get_parser():
     # rgb
     parser.add_argument("--rgb",  default = dic['rgb'])
     opt = parser.parse_args()
+    # fix bug
+    if opt.rgb == 'True':
+        opt.rgb = True
+    elif opt.rgb == 'False':
+        opt.rgb = False
+        
+    if opt.load_unet == 'True':
+        opt.load_unet = True
+    elif opt.load_unet == 'False':
+        opt.load_unet = False
     return opt
 
 if __name__ == "__main__":
